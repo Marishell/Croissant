@@ -1,10 +1,17 @@
 body {
   background: #f8e8a6;
   text-align: center;
+  margin-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-  color: green;
+  color: #000000;
+  margin: 10px;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 img {
@@ -12,4 +19,12 @@ img {
   border-radius: 10px;
   display: block;
   margin: 30px auto;
+}
+
+h1 {
+  margin: 35px auto;
+}
+
+p {
+  margin: 30px;
 }
